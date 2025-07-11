@@ -67,3 +67,28 @@ cursor: pointer;
     margin-bottom: auto;
     padding-bottom: 20px;
 }
+.main-content{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 141px;
+    margin-right: 159px;
+    gap: 100px;
+    border-radius: 50px;
+}
+.one{
+    text-align: left;
+}
+.main-btn{
+    background-color: rgba(78, 71, 255, 1);
+color: rgba(255, 255, 255, 1);
+border: none;
+border-radius: 15px;
+font-weight: bold;
+padding: 18px 35px;
+cursor: pointer;
+}
+.sec-pic{
+border-radius: 50px;
+}
