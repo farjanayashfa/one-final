@@ -1,6 +1,10 @@
 body{
     text-align: center;
 }
+main{
+    max-width: 1140px;
+    margin: auto;
+}
 
 .inter-uniquifier{
   font-family: "Inter", sans-serif;
@@ -92,3 +96,27 @@ cursor: pointer;
 .sec-pic{
 border-radius: 50px;
 }
+.users-title{
+    color:rgba(37, 36, 50, 1);
+    font-weight:bold;
+    font-size: 38px;
+}
+.users{
+    background-color:rgba(78, 71, 255, 0.1) ;
+    margin-top: 50px;
+    width: 1000px;
+    height: 266px;
+    padding: 50px;
+}
+.item-title{
+    color:  rgba(78, 71, 255, 1);
+    font-weight: bold;
+    font-size: 50px;
+}
+.main-items{
+    display: flex;
+    justify-content: space-around;
+    gap: auto;
+    width:100%;
+}
+
