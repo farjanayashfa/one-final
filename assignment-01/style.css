@@ -120,6 +120,10 @@ border-radius: 50px;
     gap: auto;
     width:100%;
 }
+.mother{
+    display: flex;
+    gap: 5px;
+}
 .say-1{
     width: 1140px;
     height: 49px;
@@ -128,20 +132,29 @@ border-radius: 50px;
     margin-top: 100px;
     margin-bottom: 40px;
 }
-.card-section{
-display: inline;
-width: 300px;
+.cards-section{
+width: 350px;
+justify-content: center;
+margin: 60px;
+text-align: left;
+border: 2px solid white;
+box-shadow: 2px 2px gray;
+}
+.icon{
+    display: flex;
 }
 
 .cards-title{
     font-size: large;
     font-size: 30px;
 }
-
 .avter{
-    display:flex;
-    
-}
+margin: 2px solid ;
+    border: 1px;
+} 
+ .picavter{
+    display: flex;
+ }
 .form-02{
 display: block;
 }
@@ -167,7 +180,7 @@ margin-bottom: 20px;
 }
 .big-one{
     padding-top: 71px;
-    margin-top: 50px;
+    margin-top: 100px;
     width: 1140px;
     height: 670px;
 }
@@ -217,4 +230,11 @@ h1{
 }
 .last{
     justify-content: center;
+}
+.headu{
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    justify-content: center;
+    font-weight: 200px;
 }
