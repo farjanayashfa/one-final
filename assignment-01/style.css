@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background-color:rgba(245, 248, 255, 1) ;
 }
 main{
     max-width: 1140px;
@@ -119,4 +120,101 @@ border-radius: 50px;
     gap: auto;
     width:100%;
 }
+.say-1{
+    width: 1140px;
+    height: 49px;
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.card-section{
+display: inline;
+width: 300px;
+}
 
+.cards-title{
+    font-size: large;
+    font-size: 30px;
+}
+
+.avter{
+    display:flex;
+    
+}
+.form-02{
+display: block;
+}
+.div-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.para{
+    margin: 2px;
+    margin-bottom: 13px;
+    padding-bottom: 20px;
+}
+.button-03{
+background-color: rgba(78, 71, 255, 1);
+color: rgba(255, 255, 255, 1);
+border: none;
+border-radius: 15px;
+font-weight: bold;
+padding: 18px 35px;
+cursor: pointer;
+padding-bottom: 20px;
+margin-bottom: 20px;
+}
+.big-one{
+    padding-top: 71px;
+    margin-top: 50px;
+    width: 1140px;
+    height: 670px;
+}
+.div-title{
+    padding-bottom: 20px;
+}
+.bigpic{
+    border-radius: 20px;
+}
+.button-04{
+    background-color: rgba(78, 71, 255, 1);
+color: rgba(255, 255, 255, 1);
+border: none;
+border-radius: 15px;
+font-weight: bold;
+padding: 18px 35px;
+cursor: pointer;
+padding-bottom: 20px;
+margin-bottom: 20px;
+width: 480px;
+height: 60px;
+}
+footer{
+    padding: 100px 200px;
+    display: flex;
+    gap: 100px;
+    margin: 30px;
+}
+.section-titlee{
+    font-weight: bold;
+    font-size:50px;
+}
+.footer-colum{
+    width: 50%;
+}
+.texte{
+align-items: center;
+}
+.KEMON{
+    padding:50px;
+    margin-bottom:40px;
+}
+h1{
+    font-weight: 800px;
+    font-size: 67px;
+    color:rgba(78, 71, 255, 1);
+}
+.last{
+    justify-content: center;
+}
